@@ -12,4 +12,9 @@ public class coursecontroller {
         return "welcome";
     }
 
+    @PostMapping("/add")
+    public  String CourseAdd(){
+        return "course added";
+    }
+
 }
