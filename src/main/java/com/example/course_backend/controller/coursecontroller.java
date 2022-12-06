@@ -17,4 +17,9 @@ public class coursecontroller {
         return "course added";
     }
 
+    @PostMapping("/viewall")
+    public String ViewAll(){
+        return "viewingall";
+    }
+
 }
